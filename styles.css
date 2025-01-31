@@ -1,0 +1,67 @@
+*{
+    position: 0;
+    margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./wallper.jpg");
+  /* background-size: cover;
+  background-position: center;
+  her if you make  u wanna the next pictuer focus in like left border keep it like this
+  and if you wanna this pictuer make center this dev  and you will get cover this dif should be use this setting 
+  just  do off to t his comment and d'ont forget to delte those  comment ahah  : ) 
+  
+  */
+
+  position: sticky;
+  top: 0;
+  transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+  opacity: 1;
+}
+#black{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(116, 117, 114); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
+
+#black h1  {
+     font-size: 50px;
+     color: white;
+     font-weight: bold;
+     font-family: sans-serif;
+
+  }   
+
+  #black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
